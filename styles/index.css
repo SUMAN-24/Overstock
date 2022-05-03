@@ -1,5 +1,6 @@
 #container{
     width: 100%;
+    background-color: rgb(255,255,255);
 }
 #header{
     width: 100%;
@@ -128,15 +129,15 @@ div{
 }
 .ships{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(184,192,198);
-
+    color: #94979b;
+   font-size: 12px;
     height: 30px;
     background-color: #f9fafb;
     width: 100%;
     border-top: 1px solid #dadcdf;
 }
 .ships>div{
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .country img{
     border-radius: 60%;
@@ -154,4 +155,50 @@ div{
 }
 a{
     text-decoration: transparent;
+}
+.liner{
+    background-color: #fff;
+    border-top: 1px solid #dadcdf;
+    height: 6px;
+    width: 100%;
+}
+.userbar{
+    display: flex;
+    align-items: center;
+    transition: transform .15s ease-in-out;
+    height: 100%;
+    margin-right: 16px;
+    margin-top: 20px;
+}
+.userbar img{
+    width: 190px;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.userbar>div>input{
+    margin-left: 20px;
+    border: 1px solid #dadcdf;
+    border-radius: 4px 0 0 4px;
+    background-color: #f9fafb;
+    padding: 0 10px;
+    font-size: 16px;
+    appearance: none;
+    line-height: 34px;
+    height: 31px;
+    width: 900px;
+}
+.search_butn{
+    background-color: #ff1f2c;
+    height: 34px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    transform: translateX(-1px);
+    cursor: pointer;
+    fill: #ffffff;
+    overflow: visible;
 }
