@@ -162,18 +162,26 @@ a{
     height: 6px;
     width: 100%;
 }
+.liner1{
+    background-color: #fff;
+    border-top: 1px solid #dadcdf;
+    height: 6px;
+    width: 100%;
+    margin-top: 10px;
+}
 .userbar{
     display: flex;
     align-items: center;
     transition: transform .15s ease-in-out;
     height: 100%;
     margin-right: 16px;
-    margin-top: 20px;
+    margin-top: 8px;
+    width: 100%;
 }
 .userbar img{
     width: 190px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 15px;
     cursor: pointer;
 }
 .userbar>div>input{
@@ -186,7 +194,7 @@ a{
     appearance: none;
     line-height: 34px;
     height: 31px;
-    width: 900px;
+    width: 1010px;
 }
 .search_butn{
     background-color: #ff1f2c;
@@ -201,4 +209,32 @@ a{
     cursor: pointer;
     fill: #ffffff;
     overflow: visible;
+}
+.user_details{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 20px;
+}
+.user_details1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    justify-content: space-evenly;
+}
+.user_details1>p{
+    margin-left: -30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    padding-top: 22px;
+}
+.user_details1>i{
+    margin-left: 15px;
+    /* color: rgb(95,99,102); */
+    margin-top: 5px;
+}
+.fa-customize{
+    font-size: 24px;
+    color:cadetblue;
 }

@@ -5,77 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/424bab604d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
     <div id="container">
-    <div id="header">
-        <div id="deal_form">
-        <div id="deals">
-            <P>
-                Signup to recieve our latest
-                <b>deals</b>
-                and get a
-                <b>10% off coupon</b>
-                .
-            </P>
-            <svg class="arrowDown" width="20" height="15" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337">
-                <title>Chevron Down</title>
-                <path d="M2 7l10 10L22 7" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-           </svg>
-            <svg class="closeThin" width="20" height="20" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337">
-                <title>Close</title>
-                <path d="M19.7 4.3c-.4-.4-1-.4-1.4 0L12 10.6 5.7 4.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l6.3 6.3-6.3 6.3c-.4.4-.4 1 0 1.4.2.2.4.3.7.3.3 0 .5-.1.7-.3l6.3-6.3 6.3 6.3c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4L13.4 12l6.3-6.3c.4-.4.4-1 0-1.4z" stroke="none" fill="inherit"></path>
-            </svg>
+        <div id="header">
+            <div id="deal_form">
+                <div id="deals">
+                    <P>
+                        Signup to recieve our latest
+                        <b>deals</b>
+                        and get a
+                        <b>10% off coupon</b>
+                        .
+                    </P>
+                        <svg class="arrowDown" width="20" height="15" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337">
+                            <title>Chevron Down</title>
+                            <path d="M2 7l10 10L22 7" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <svg class="closeThin" width="20" height="20" viewBox="0 0 24 24" stroke="#2F3337" fill="#2F3337">
+                            <title>Close</title>
+                            <path d="M19.7 4.3c-.4-.4-1-.4-1.4 0L12 10.6 5.7 4.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4l6.3 6.3-6.3 6.3c-.4.4-.4 1 0 1.4.2.2.4.3.7.3.3 0 .5-.1.7-.3l6.3-6.3 6.3 6.3c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4L13.4 12l6.3-6.3c.4-.4.4-1 0-1.4z" stroke="none" fill="inherit"></path>
+                        </svg>
 
-        </div>
-        <div id="form">
-            <form class="form">
-                <input class="email" value="" placeholder="enter email address">
-                <button type="submit">Sign up</button>
-                <p class="errorTag">* Email address is required</p>
-            </form>
-            <div id="terms">
-                <p>Terms & Conditions</p>
-                <span>|</span>
-                <p>Privacy Policy</p>
-                <span>|</span>
-                <p>*You can unsubscribe at any time</p>
-            </div>
-        </div>
-        </div>
-        <div class="ships">
-            <div>
-                Ships to:
-            </div>
-            <a href="#" class="country">
-                <img src="https://ak1.ostkcdn.com/img/mxc/intFlag_IN.gif" 
-                title="Click to change Country or Currency" alt="India flag" 
-                class="FlagPic">
-                
-                <div class="country_name">India</div>
-            </a>
-        </div>
-        <div>
-            <div class="liner"></div>
-            <div class="userbar">
-                <a href="/index.html">
-                <img src="/images/overstock.com_1516987437.png" alt="overstock logo">
-                </a>
-                <div >
-                    <input oninput="debounce(main,500)" type="text" placeholder="Search">
                 </div>
-                <button aria-label="search" type="submit" class="search_butn">
-                    <svg width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#FFFFFF">
-                    <title>Search</title>
-                    <path d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
-                    </path>
-                </svg>
-            </button>
+                <div id="form">
+                    <form class="form">
+                        <input class="email" value="" placeholder="enter email address">
+                        <button type="submit">Sign up</button>
+                        <p class="errorTag">* Email address is required</p>
+                    </form>
+                    <div id="terms">
+                        <p>Terms & Conditions</p>
+                        <span>|</span>
+                        <p>Privacy Policy</p>
+                        <span>|</span>
+                        <p>*You can unsubscribe at any time</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ships">
+                <div>
+                    Ships to:
+                </div>
+                <a href="#" class="country">
+                    <img src="https://ak1.ostkcdn.com/img/mxc/intFlag_IN.gif" 
+                    title="Click to change Country or Currency" alt="India flag" 
+                    class="FlagPic">
+                    
+                    <div class="country_name">India</div>
+                </a>
+            </div>
+            <div>
+                <div class="liner"></div>
+                <div class="userbar">
+                    <a href="/index.html">
+                    <img src="/images/overstock.com_1516987437.png" alt="overstock logo">
+                    </a>
+                    <div >
+                        <input oninput="debounce(main,500)" type="text" placeholder="Search">
+                    </div>
+                    <button aria-label="search" type="submit" class="search_butn">
+                        <svg width="22" height="22" viewBox="0 0 24 24" stroke="#2F3337" fill="#FFFFFF">
+                        <title>Search</title>
+                        <path d="M22 22l-6.344-6.344M10 18a8 8 0 100-16 8 8 0 000 16z" stroke="inherit" fill="none" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                        </svg>
+                    </button>
+                    <div class="user_details">
+                        <div class="user_details1">
+                            <i class="fa-regular fa-user fa-customize"></i>
+                            <p>Account</p>
+                        </div>
+                        <div class="user_details1">
+                            <i class="fa-regular fa-heart fa-customize"></i>
+                            <p>Lists</p>
+                        </div>
+                        <div class="user_details1">    
+                            <i class="fa-solid fa-cart-shopping fa-customize"></i>
+                            <p>Cart</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="liner1"></div>
             </div>
         </div>
-    <div></div>
-    </div>
     </div>
 </body>
 </html>
