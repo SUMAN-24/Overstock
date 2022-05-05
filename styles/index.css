@@ -280,9 +280,13 @@ div{
     overflow: hidden;
     margin-top: -6px;
 }
-.spring_sale{
+.spring_sale,.home_decor{
     display: flex;
     position: relative;
+}
+.home_decor{
+    width: 96%;
+    margin-top: 25px;
 }
 .img1{
     display: block;
