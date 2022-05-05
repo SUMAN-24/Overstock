@@ -269,3 +269,35 @@ div{
 .sales{
     color: rgb(211,90,98);
 }
+#content_container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: -6px;
+}
+.spring_sale{
+    display: flex;
+    /* vertical-align: middle; */
+    position: relative;
+    /* text-align: center; */
+}
+.img1{
+    display: block;
+    position: relative;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+.img2{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
