@@ -87,7 +87,7 @@ div{
     padding: 10px;
 }
 .form>button{
-    height: 34px;
+    height: 30px;
     border-radius: 0 3px 3px 0;
     border: 1px solid #dadcdf;
     border-left: none;
@@ -114,14 +114,15 @@ div{
     color: #fff;
     font-size: 12px;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif
-
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1px;
 }
 #terms p{
     cursor: pointer;
 }
 #terms p+span{
-    margin: 15px 4px;
+    margin: 0px 4px;
+    cursor: default;
 }
 .ships,.country{
     display: flex;
@@ -174,7 +175,7 @@ div{
     border-top: 1px solid #dadcdf;
     height: 6px;
     width: 100%;
-    margin-top: -8px;
+    margin-top: -10px;
 }
 .userbar{
     display: flex;
@@ -261,13 +262,12 @@ div{
 .navbar_contents>a{
     cursor: pointer;
     margin-top: -18px;
+    color: #2f3337;
+    text-decoration: none;
 }
 .navbar_contents>p{
     cursor: default;
     margin-top: -1px;
-}
-.sales{
-    color: rgb(211,90,98);
 }
 #content_container{
     max-width: 1400px;
@@ -283,9 +283,10 @@ div{
 .spring_sale,.home_decor{
     display: flex;
     position: relative;
+    width: 100%;
 }
 .home_decor{
-    width: 96%;
+    width: 100%;
     margin-top: 25px;
 }
 .img1{
@@ -321,7 +322,7 @@ div{
     flex-wrap: wrap;
     width: 100%;
     position: relative;
-    margin-top: 4px;
+    margin-top: 25px;
     align-items: center;
     justify-content: space-between;
 }
@@ -336,7 +337,7 @@ div{
     font-weight: 700;
     font-size: 32px;
     color: #2f3337;
-    padding: 8px 8px 0;
+    padding: 32px 8px 0;
 }
 .wrap_img1{
     width: 100%;
@@ -350,21 +351,20 @@ div{
     height: 72%;
     position: absolute;
     top: 0;
-    left: 0;
-     
+    left: 0;  
 }
 .img_title{
     font-weight: 700;
     font-size: 16px;
     width:100%;
-    height: 70px;
+    height: 75px;
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
     position:relative; 
-    margin-top: 10px;
+    margin-top: 6px;
 }
 .title_fresh{
-    margin-top: 60px;
+    margin-top: 38px;
 }
 .freshfinds_title{
     width: 100%;
@@ -375,7 +375,7 @@ div{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 0;
+    margin-top: -5px;
     color: #545658;
 }
 .freshfinds_img{
@@ -393,4 +393,77 @@ div{
 }
 .fresh_img{
     margin-top: 30px;
+}
+.title_home{
+    margin-top: 70px;
+}
+.wrap_1{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* carousel css starts here */
+.carousel-control-prev,.carousel-control-next{
+    background-color:  white;
+    border: 1px solid #dadcdf;
+    display: inline-flex;
+    border-radius: 4px;
+    width: 34px;
+    height: 44px;
+    color: rgb(47, 51, 55);
+    top: 30%;
+    transform: translateX(1.6%);
+    margin: 0 7px;
+    padding: 7px;
+    text-transform: none;
+}
+.carousel-control-next{
+    transform: translateX(-1.6%);
+}
+.carousel-control-prev span,.carousel-control-next span{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.card-body{
+    background-color: #f5f5f5;
+    height: 100%;
+    width: 100%;
+    padding: 16px 24px;
+}
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f3337;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 8px;
+}
+.card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f3337;
+    font-size: 16px;
+    line-height: 19px;
+}
+@media screen and (min-width: 568px){
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0 .5em;
+    width: calc(96%/4);
+}
+.image-wrapper{
+    height: 22vw;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 567px){
+    .card:not(:first-child){
+        display: none;
+    }
+}
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
 }
