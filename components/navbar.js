@@ -29,10 +29,10 @@ function navbar() {
                 </svg>
             </button>
             <div class="user_details">
-                <div class="user_details1">
+                <a href="/login.html"><div class="user_details1">
                     <i class="fa-regular fa-user fa-customize"></i>
                     <p title="User">Account</p>
-                </div>
+                </div></a>
                 <div class="user_details1">
                     <i class="fa-regular fa-heart fa-customize"></i>
                     <p title="Heart">Lists</p>

@@ -22,13 +22,14 @@
     <link rel="stylesheet" href="/styles/footer.css">
 </head>
 <body>
+    <div id="navbar"></div>
     <div class="signupCont">
         <div class="nav">
             <div>
                         <div align="center">
                             <img src="https://www.royalenfield.com/content/dam/royal-enfield/Icons/legacy.svg">
                         </div>
-                        <p>Interact with Royal Enfield owners</p>
+                        <p>Interact with Overstack owners</p>
             </div>
             <div>
                 <div align="center">
@@ -40,10 +41,10 @@
                 <div align="center">
                         <img src="https://www.royalenfield.com/content/dam/royal-enfield/Icons/explore-features.svg">
                 </div>
-                <p>Find solutions, share similar experiences with fellow riders</p>
+                <p>Find solutions, share similar experiences</p>
             </div>
         </div>
-        <h1 id="signH1">Sign up for Royal Enfield</h1>
+        <h1 id="signH1">Sign up for Overstack</h1>
     <form id="form">
         <div id="inpt">
             <div>
@@ -92,7 +93,7 @@
             <div>
                 <div>
                       <div class="gen">
-                          <p id="gend">Do you own a Royal Enfield Motorcycle</p>
+                          <p id="gend">Do you had Overstack account earlier</p>
                           <div>
                                   <input type="radio"  id="ownY" value="Yes" name="own"/> <span>Yes</span> 
                                   <input type="radio" id="ownN" value="No"  name="own"/> <span>No </span>
@@ -106,13 +107,13 @@
         <div class="cond">
                 <div>
                     <p>Disclaimer: By signing this form/checking this box, you acknowledge and agree that we may use the information you share with us, to communicate with you through e-mails, text messages, WhatsApp and calls, in order to provide our product or service related information and/or for promotional and marketing purposes. All information provided will be secured and processed as per our 
-                        <a href="https://www.royalenfield.com/in/en/legal/privacy-policy/">
+                        <a href="#">
                             privacy policy</a></p>
                 </div>
 
                 <div id="acceptCond">
                     <input type="checkbox" class="check"/>
-                    <span style="text-align: left;">I accept the <a href="https://www.royalenfield.com/in/en/legal/terms-and-conditions/">terms and conditions</a> as well as <a href="https://www.royalenfield.com/in/en/legal/privacy-policy/">privacy policy</a><br>
+                    <span style="text-align: left;">I accept the <a href="#">terms and conditions</a> as well as <a href="#">privacy policy</a><br>
                     </span>
                 </div>
 
@@ -144,9 +145,10 @@
                 Already have a Royal Enfield account
             </h1>
              <div align="center">
-                <button class="logI" >Login </button>
+                <button onclick="window.location.href='/login.html'" class="logI" >Login </button>
              </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
 <script type="module">
